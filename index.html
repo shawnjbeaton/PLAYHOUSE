@@ -8,17 +8,18 @@
   overflow: none;
   filter:opacity(0.5);
 }
-
-#headerimg img{
-  width: 100%;
-}
-#footerimg{
+#headerimg, #footerimg{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#headerimg img{
+  width: 85%;
+}
 #footerimg img{
   width: 200px;
+  position: absolute;
+  bottom: 0;
 }
 </style>
 
@@ -28,7 +29,7 @@
   <img src="PlayhouseSpraypaint.png" />
 </div>
 
-<div id="eventbrite-widget-container-1986908442638"></div>
+<div id="eventbrite-widget-container-1998749126442"></div>
 
 <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
 
@@ -40,8 +41,8 @@
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '1986908442638m',
-        iframeContainerId: 'eventbrite-widget-container-1986908442638',
+        eventId: '1998749126442',
+        iframeContainerId: 'eventbrite-widget-container-1998749126442',
 
         // Optional
         iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
